@@ -6,6 +6,7 @@ A command-line CMS for managing employee data
 
 This application is a command-line based content management system which can be used to manage employee data. It is written using JavaScript and MySQL and should be run using the Node.js JavaScript runtime environment. The node package manager inquirer is used to provide the interface for the application and to prompt the user for inputs. 
 
+
 # Table of Contents
 - Installation
 - Usage
@@ -18,6 +19,20 @@ This application is a command-line based content management system which can be 
 #  Installation
 
 From GitHub, fork the repo. Once forked, run npm i from the root directory to install required dependencies.
+link to the repository : https://github.com/KittiyaLooknam/Employee-Tracker.git
+
+
+![alt text](<demo/Screenshot 2024-02-15 212223.png>)
+
+![alt text](<demo/Screenshot 2024-02-15 212238.png>)
+
+![alt text](<demo/Screenshot 2024-02-15 212248.png>)
+
+
+
+This is a Demo vdo : https://youtu.be/vd-VXnsHdqo
+
+
 
 # Usage
 

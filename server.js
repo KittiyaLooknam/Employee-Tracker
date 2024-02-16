@@ -6,12 +6,10 @@ const {welcomeMessage} = require("./utils/asciiArt");
 // Make connection to the data bese
 const connection = mysql.createConnection({
     host: "localhost",
-    // Your port; if not 3306
-    port: 3306,
     // Your username
     user: "root",
     // Your password
-    password: "Nam.470047014$",
+    password: "Nam.47004701$",
     database: "employeeDB",
   });
   
@@ -393,7 +391,7 @@ function updateManager() {
             viewAllEmployees();
             break;
           case "View all employees by department":
-            viewAllEmployeesByDepartment();
+            viewAllEmployees(); // Corrected function call
             break;
           case "View all employees by manager":
             viewAllEmployeesByManager();
